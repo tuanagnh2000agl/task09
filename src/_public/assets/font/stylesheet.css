@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'fontmily';
+    src: url('./assets/font/HiraKakuProN-W6-AlphaNum.woff2') format('woff2'),
+        url('./assets/font/HiraKakuProN-W6-AlphaNum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fontmily';
+    src: url('./assets/font/HiraKakuProN-W3-AlphaNum.woff2') format('woff2'),
+        url('./assets/font/HiraKakuProN-W3-AlphaNum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fontmily';
+    src: url('./assets/font/HiraKakuPro-W3-AlphaNum.woff2') format('woff2'),
+        url('./assets/font/HiraKakuPro-W3-AlphaNum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fontmily';
+    src: url('./assets/font/HiraKakuPro-W6-AlphaNum.woff2') format('woff2'),
+        url('./assets/font/HiraKakuPro-W6-AlphaNum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

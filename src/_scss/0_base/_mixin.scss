@@ -1,0 +1,28 @@
+//============================================
+// clearfix
+//============================================
+@mixin clear {
+    *zoom: 1;
+
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+//============================================
+// breakpoint
+//============================================
+@mixin tab {
+    @media only screen and (max-width: 998px) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media only screen and (max-width:  767px) {
+        @content;
+    }
+}
+

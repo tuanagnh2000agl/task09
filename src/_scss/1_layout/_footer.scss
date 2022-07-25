@@ -1,0 +1,109 @@
+.c-footer {
+    max-width: 1200px;
+    width: 98%;
+    margin: 0 auto;
+    border-top: #0080cc 1px solid;
+
+    .c-nav {
+        // c-nav__entext
+        &__entext {
+            background-color: #fff;
+            max-width: 1160px;
+            width: 100%;
+            margin: 21px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__logo {
+            width: 16%;
+        }
+
+        &__link {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            &-menu {
+                margin-right: -20px;
+                display: flex;
+                @include font16;
+                color: #0080cc;
+                font-weight: 400;
+
+                li {
+                    margin: 0 14px;
+
+                    a {
+                        display: block;
+                    }
+
+                    .u-pd {
+                        padding-right: 7px;
+                    }
+                }
+            }
+        }
+
+        &__btn {
+            width: 16%;
+            height: 50px;
+            font-size: 1.8rem;
+            font-weight: 500;
+            background-color: #0080cc;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            letter-spacing: 0.8px;
+
+            img {
+                transform: translate(-11px, 4px);
+            }
+        } 
+        
+        // c-nav__corporate
+        &__corporate {
+            border-top: 1px solid #ccc;
+            text-align: right;
+            margin-bottom: 16px;
+        }
+
+        &__text-link {
+            color: #a0a0a0;
+            font-size: 1.4rem;
+            font-weight: 400;
+            border-bottom: 1px solid #ccc;
+            display: inline-block;
+            line-height: 1;
+            padding-top: 12px;
+            margin-right: 5%;
+            letter-spacing: 0.4px;
+        }
+        // c-nav__copy
+        &__copy {
+            max-width: 1200px;
+            width: 100%;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 400;
+            background-color: #0080cc;
+            text-align: center;
+            padding: 13px 0 12px;
+            letter-spacing: 0;
+
+            .u-nav-ml {
+                margin-left: 11px;
+                display: inline-block;
+            }
+
+            .u-nav-ml1 {
+                letter-spacing: -0.6px;
+
+            }
+        }
+    }
+}
